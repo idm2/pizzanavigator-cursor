@@ -1,0 +1,503 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light mode colors */
+    --background: 210 33% 96%;
+    --foreground: 215 28% 17%;
+
+    /* Card and UI elements */
+    --card: 0 0% 100%;
+    --card-foreground: 215 28% 17%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 28% 17%;
+
+    /* Primary - Bright Orange */
+    --primary: 16 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Deep Burgundy */
+    --secondary: 338 55% 23%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Accent - Olive Green */
+    --accent: 82 62% 23%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Muted - Sand/Beige */
+    --muted: 39 60% 75%;
+    --muted-foreground: 215 28% 17%;
+
+    /* Highlight - Golden Amber */
+    --highlight: 35 75% 56%;
+    --highlight-foreground: 215 28% 17%;
+
+    /* Destructive */
+    --destructive: 0 85% 37%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Border and UI */
+    --border: 39 60% 75%;
+    --input: 39 60% 75%;
+    --ring: 16 100% 50%;
+    --radius: 0.75rem;
+
+    /* Pizza palette */
+    --pizza-sand: 39 60% 75%;
+    --pizza-orange: 16 100% 50%;
+    --pizza-brown: 26 60% 38%;
+    --pizza-red: 7 78% 34%;
+    --pizza-amber: 35 75% 56%;
+    --pizza-bright-red: 356 97% 37%;
+    --pizza-burgundy: 338 55% 23%;
+    --pizza-charcoal: 215 28% 17%;
+    --pizza-olive: 82 62% 23%;
+    --pizza-terracotta: 17 82% 42%;
+  }
+
+  .dark {
+    --background: 215 28% 12%;
+    --foreground: 0 0% 98%;
+
+    --card: 215 28% 17%;
+    --card-foreground: 0 0% 98%;
+    --popover: 215 28% 17%;
+    --popover-foreground: 0 0% 98%;
+
+    /* Primary - Bright Orange */
+    --primary: 16 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Deep Burgundy */
+    --secondary: 338 55% 23%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Accent - Olive Green */
+    --accent: 82 62% 23%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Muted - Darker Sand */
+    --muted: 39 30% 40%;
+    --muted-foreground: 0 0% 80%;
+
+    /* Highlight - Golden Amber */
+    --highlight: 35 75% 56%;
+    --highlight-foreground: 215 28% 17%;
+
+    /* Destructive */
+    --destructive: 0 85% 37%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Border and UI */
+    --border: 39 30% 40%;
+    --input: 39 30% 40%;
+    --ring: 16 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.pizza-gradient {
+  background: linear-gradient(
+    to right,
+    hsl(var(--pizza-sand)),
+    hsl(var(--pizza-orange)),
+    hsl(var(--pizza-brown)),
+    hsl(var(--pizza-red)),
+    hsl(var(--pizza-amber))
+  );
+}
+
+.pizza-gradient-reverse {
+  background: linear-gradient(
+    to left,
+    hsl(var(--pizza-sand)),
+    hsl(var(--pizza-orange)),
+    hsl(var(--pizza-brown)),
+    hsl(var(--pizza-red)),
+    hsl(var(--pizza-amber))
+  );
+}
+
+.pizza-gradient-vertical {
+  background: linear-gradient(
+    to bottom,
+    hsl(var(--pizza-sand)),
+    hsl(var(--pizza-orange)),
+    hsl(var(--pizza-brown)),
+    hsl(var(--pizza-red)),
+    hsl(var(--pizza-amber))
+  );
+}
+
+.pizza-pattern {
+  background-color: #f3f4f6; /* gray-100 equivalent */
+  background-image: radial-gradient(hsla(0, 0%, 0%, 0.1) 1px, transparent 1px),
+    radial-gradient(hsla(16, 100%, 50%, 0.1) 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+.dark .pizza-pattern {
+  background-color: #1a202c;
+}
+
+.flour-dust {
+  position: relative;
+}
+
+.flour-dust::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='rgba(0,0,0,.05)' fill-rule='evenodd'/%3E%3C/svg%3E");
+  opacity: 0.5;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.basil-accent {
+  position: relative;
+}
+
+.basil-accent::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23485D17' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2a10 10 0 0 0-6.88 17.28'/%3E%3Cpath d='M12 12l-8 8h16l-8-8Z'/%3E%3Cpath d='M12 2v10'/%3E%3C/svg%3E");
+  opacity: 0.7;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+
+.pizza-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Find the pizza-card::before rule and replace it with this */
+.pizza-card::before {
+  content: none; /* This is more reliable than display: none */
+}
+
+.pizza-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
+
+.slate-bg {
+  background: linear-gradient(to bottom, #f9fafb, #f3f4f6);
+}
+
+.dark .slate-bg {
+  background: linear-gradient(to bottom, #0f1216, #1c232d);
+}
+
+.tomato-sauce-bg {
+  background: linear-gradient(135deg, hsl(var(--pizza-red)) 0%, hsl(var(--pizza-bright-red)) 100%);
+}
+
+.cheese-bg {
+  background: linear-gradient(135deg, hsl(var(--pizza-sand)) 0%, hsl(var(--pizza-amber)) 100%);
+}
+
+.herb-bg {
+  background: linear-gradient(135deg, hsl(var(--pizza-olive)) 0%, hsl(82, 62%, 33%) 100%);
+}
+
+/* Black gradient overlay for images */
+.black-gradient-overlay {
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+/* Button styles */
+.bright-orange-btn {
+  background-color: hsl(16, 100%, 50%);
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.bright-orange-btn:hover {
+  background-color: hsl(16, 100%, 45%);
+}
+
+.bright-orange-btn:active {
+  background-color: hsl(16, 100%, 40%);
+}
+
+/* Accent action button for key call-to-action elements */
+.btn-accent-action {
+  background-color: hsl(310, 100%, 50%); /* Vibrant pink/purple */
+  color: white;
+  transition: all 0.2s ease;
+  box-shadow: 0 3px 10px rgba(255, 0, 170, 0.3);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.btn-accent-action:hover {
+  background-color: hsl(310, 100%, 45%);
+  box-shadow: 0 4px 12px rgba(255, 0, 170, 0.4);
+  transform: translateY(-1px);
+}
+
+.btn-accent-action:active {
+  background-color: hsl(310, 100%, 40%);
+  box-shadow: 0 2px 8px rgba(255, 0, 170, 0.3);
+  transform: translateY(0);
+}
+
+/* Dark blue background for headers and navigation */
+.dark-blue-bg {
+  background-color: white;
+  border-color: rgba(229, 231, 235, 1);
+}
+
+.dark .dark-blue-bg {
+  background-color: #0f1216;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Dark blue card background */
+.dark-blue-card {
+  background-color: white;
+  border-color: rgba(229, 231, 235, 1);
+}
+
+.dark .dark-blue-card {
+  background-color: rgba(28, 35, 45, 0.8);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Text colors based on theme */
+.theme-text-primary {
+  color: rgba(17, 24, 39, 1);
+}
+
+.dark .theme-text-primary {
+  color: white;
+}
+
+.theme-text-secondary {
+  color: rgba(75, 85, 99, 1);
+}
+
+.dark .theme-text-secondary {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.theme-text-muted {
+  color: rgba(107, 114, 128, 1);
+}
+
+.dark .theme-text-muted {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Card and UI backgrounds */
+.theme-card-bg {
+  background-color: white;
+  border-color: rgba(229, 231, 235, 1);
+}
+
+.dark .theme-card-bg {
+  background-color: rgba(26, 32, 44, 0.8);
+  border-color: rgba(255, 165, 0, 0.2);
+}
+
+.theme-input-bg {
+  background-color: rgba(249, 250, 251, 1);
+  border-color: rgba(209, 213, 219, 1);
+}
+
+.dark .theme-input-bg {
+  background-color: #1a202c;
+  border-color: rgba(255, 165, 0, 0.3);
+}
+
+/* Progress bar backgrounds */
+.theme-progress-bg {
+  background-color: rgba(229, 231, 235, 1);
+}
+
+.dark .theme-progress-bg {
+  background-color: #0f1216;
+}
+
+/* Fix for button margins */
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+/* Light mode specific styles */
+.light .theme-card-bg {
+  background-color: white;
+  border-color: rgba(229, 231, 235, 1);
+}
+
+.light .dark-blue-bg,
+.light .dark-blue-card {
+  background-color: white;
+  border-color: rgba(229, 231, 235, 1);
+}
+
+.light .theme-text-primary {
+  color: #1a202c;
+}
+
+.light .theme-text-secondary {
+  color: #4a5568;
+}
+
+.light .theme-text-muted {
+  color: #718096;
+}
+
+.light .slate-bg {
+  background: #f9fafb;
+}
+
+.light .theme-input-bg {
+  background-color: #f9fafb;
+  border-color: #e2e8f0;
+}
+
+/* Fix for tabs in light mode */
+.light .data-\[state\=active\]\:bg-pizza-orange {
+  background-color: #1a202c !important;
+  color: white !important;
+}
+
+.light .data-\[state\=active\]\:text-white {
+  color: white !important;
+}
+
+/* Non-active tabs in light mode */
+.light .bg-gray-100.dark\:bg-\[\#1a202c\]\/50,
+.light .bg-\[\#1a202c\]\/50,
+.light .bg-\[\#1a202c\]\/70,
+.light .bg-\[\#1a202c\]\/80 {
+  background-color: #f1f5f9 !important;
+}
+
+.light .text-white {
+  color: #1a202c;
+}
+
+.light .text-white\/70 {
+  color: #4a5568;
+}
+
+.light .text-white\/60 {
+  color: #718096;
+}
+
+.light .border-white\/20 {
+  border-color: #e2e8f0;
+}
+
+.light .bg-\[\#3c2a1f\] {
+  background-color: #fff8f0;
+}
+
+/* Fix for radio buttons and selectable items in light mode */
+.light .peer-data-\[state\=checked\]\:bg-pizza-orange\/20 {
+  background-color: rgba(255, 85, 0, 0.1);
+}
+
+.light .peer-data-\[state\=checked\]\:border-pizza-orange {
+  border-color: #ff5500;
+}
+
+/* Dialog styling for light mode */
+.light .bg-pizza-charcoal,
+.light .bg-pizza-charcoal\/80 {
+  background-color: white;
+  border-color: #e2e8f0;
+}
+
+.light .bg-pizza-charcoal .text-white,
+.light .bg-pizza-charcoal\/80 .text-white {
+  color: #1a202c;
+}
+
+.light .bg-pizza-charcoal .text-white\/70,
+.light .bg-pizza-charcoal\/80 .text-white\/70 {
+  color: #4a5568;
+}
+
+.light .border-pizza-orange\/20 {
+  border-color: rgba(255, 85, 0, 0.2);
+}
+
+.light .border-pizza-orange\/30 {
+  border-color: rgba(255, 85, 0, 0.3);
+}
+
+.light .border-pizza-orange\/50 {
+  border-color: rgba(255, 85, 0, 0.5);
+}
+
+/* Fix for input fields in dialogs */
+.light .bg-\[\#1a202c\].border-pizza-orange\/30.text-white {
+  background-color: white;
+  color: #1a202c;
+  border-color: #e2e8f0;
+}
+
+/* Fix for tabs styling */
+.light [role="tablist"] {
+  background-color: #f1f5f9;
+}
+
+.light [role="tab"][data-state="active"] {
+  background-color: #1a202c;
+  color: white;
+}
+
+.light [role="tab"]:not([data-state="active"]) {
+  background-color: #f1f5f9;
+  color: #1a202c;
+}
+
+/* Fix for selectable items in light mode */
+.light .hover\:bg-gray-50 {
+  --tw-hover-bg-opacity: 1;
+  background-color: rgba(249, 250, 251, var(--tw-hover-bg-opacity));
+}
+
+.light .dark\:hover\:bg-\[\#1a202c\]\/70:hover {
+  background-color: rgba(241, 245, 249, 0.7);
+}
+
+/* Add this to your existing CSS file */
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

@@ -1,0 +1,69 @@
+# Pizza Navigator Development Log
+
+## April 5, 2023
+
+### Toppings Data Enhancement
+
+1. **Created comprehensive toppings markdown data**
+   - Added `data/complete-pizza-toppings-markdown.md` with 60 detailed pizza topping recipes
+   - Each recipe includes name, tags, ingredients (with amounts and units), and method steps
+   - Organized into 6 categories: Classic, Mediterranean & Specialty, Gourmet Combinations, International Flavors, Creative Combinations, and Gourmet Specialties
+
+2. **Created conversion script**
+   - Added `scripts/convert-toppings.js` to convert markdown to JSON format
+   - Script extracts recipe names, tags, ingredients, and method steps
+   - Properly parses ingredient amounts, units, and names
+   - Generates structured data for all 60 topping recipes
+
+3. **Updated toppings data file**
+   - Updated `data/toppings-data.json` with the new complete set of topping recipes
+   - Standardized the structure of toppings data
+   - Organized ingredient information with consistent amount, unit, and name properties
+   - Simplified method steps into an array of instructions
+   - Added comprehensive categorization with 18 topping categories
+
+4. **Previous updates to components**
+   - Updated `utils/toppings-utils.ts` to handle the new data format
+   - Modified `components/toppings-detail-page.tsx` to display detailed recipe information
+   - Updated `components/pizza-plan-summary.tsx` to show unique toppings and remove "As needed" text
+   - Enhanced `components/pizza-toppings-selector.tsx` to use categorized toppings
+
+### To-Do:
+- Consider adding images for each topping recipe
+- Add nutritional information to recipes
+- Implement filtering by dietary restrictions (vegan, gluten-free, etc.)
+
+[2023-08-22] - Cleaning up stale files
+- Removed stale backup file: toppings-data-backup.json
+- Removed redundant file: complete-toppings.json 
+- Removed debugging scripts:
+  - debug-toppings-loading.js
+  - debug-toppings.js
+  - debug-category-mapping.js
+  - force-refresh-toppings.js
+  - verify-toppings-update.js
+  - update-toppings-data.js
+  - check-toppings-count.js
+- Kept important files:
+  - toppings-data.json (main data file used by the application)
+  - complete-pizza-toppings-markdown.md (source markdown for toppings)
+  - count-toppings.js (useful utility script)
+  - convert-toppings.js (script for future markdown to JSON conversions)
+
+[2023-08-23] - Additional File Cleanup
+- Removed empty/unused file: restart-dev.js
+- Kept important utility scripts:
+  - data-management.js - Comprehensive tool for managing application data
+  - count-toppings.js - Simple utility for verifying topping counts
+  - convert-toppings.js - Essential script for converting markdown to JSON
+
+[2023-08-24] - Added Comprehensive Pizza Types Data
+- Created detailed `pizza-types-detailed.json` data file with comprehensive information about different pizza styles
+- The file includes:
+  - Classification of pizza types (pan vs. round)
+  - Detailed cooking methods for different oven types
+  - Complete dough preparation recipes with ingredient measurements
+  - Step-by-step process for different fermentation times (same day, 24h, 48h)
+  - Topping application techniques specific to each pizza style
+  - Key differences between pizza styles
+- This data will be used to enhance the pizza calculator and recipe guidance features

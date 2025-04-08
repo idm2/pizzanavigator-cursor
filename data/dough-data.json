@@ -1,0 +1,112 @@
+{
+  "pizzaTypes": [
+    {
+      "id": "neapolitan",
+      "name": "Neapolitan",
+      "hydration": 65,
+      "salt": 2,
+      "oil": 0,
+      "sugar": 0,
+      "defaultSize": "medium"
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "hydration": 62,
+      "salt": 2,
+      "oil": 2,
+      "sugar": 2,
+      "defaultSize": "large"
+    },
+    {
+      "id": "detroit",
+      "name": "Detroit",
+      "hydration": 70,
+      "salt": 2.5,
+      "oil": 5,
+      "sugar": 0,
+      "defaultSize": "small"
+    },
+    {
+      "id": "sicilian",
+      "name": "Sicilian",
+      "hydration": 75,
+      "salt": 2.5,
+      "oil": 4,
+      "sugar": 0,
+      "defaultSize": "medium"
+    },
+    {
+      "id": "grandma",
+      "name": "Grandma",
+      "hydration": 72,
+      "salt": 2.3,
+      "oil": 6,
+      "sugar": 1,
+      "defaultSize": "medium"
+    }
+  ],
+  "sizes": [
+    {
+      "id": "small",
+      "name": "Small"
+    },
+    {
+      "id": "medium",
+      "name": "Medium"
+    },
+    {
+      "id": "large",
+      "name": "Large"
+    }
+  ],
+  "yeastTypes": [
+    {
+      "id": "instant",
+      "name": "Instant Dry Yeast"
+    },
+    {
+      "id": "active",
+      "name": "Active Dry Yeast"
+    },
+    {
+      "id": "fresh",
+      "name": "Fresh Yeast"
+    }
+  ],
+  "starters": [
+    {
+      "id": "poolish",
+      "name": "Poolish"
+    },
+    {
+      "id": "biga",
+      "name": "Biga"
+    },
+    {
+      "id": "sourdough",
+      "name": "Sourdough"
+    }
+  ],
+  "displayOptions": [
+    {
+      "id": "percent",
+      "name": "Baker's Percentage"
+    },
+    {
+      "id": "grams",
+      "name": "Grams"
+    }
+  ],
+  "unitOptions": [
+    {
+      "id": "metric",
+      "name": "Metric"
+    },
+    {
+      "id": "imperial",
+      "name": "Imperial"
+    }
+  ]
+}
+

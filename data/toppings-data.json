@@ -1,0 +1,3653 @@
+{
+  "toppingCategories": [
+    "BBQ",
+    "Breakfast",
+    "Cheese",
+    "Chicken",
+    "Classic",
+    "Fungi",
+    "Garlic",
+    "Gourmet",
+    "Healthy",
+    "Italian",
+    "Meat",
+    "Mediterranean",
+    "Pesto",
+    "Seafood",
+    "Spicy",
+    "Sweet",
+    "Vegetarian",
+    "White"
+  ],
+  "toppingRecipes": [
+    {
+      "id": "topping-1",
+      "name": "Classic Margherita",
+      "tags": [
+        "Vegetarian",
+        "Classic",
+        "Cheese"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "8 ",
+          "unit": "oz",
+          "name": "(225g) fresh mozzarella"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "8-10 fresh basil leaves"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "extra virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and freshly ground black pepper to taste"
+        }
+      ],
+      "method": [
+        "Mix the tomato sauce with salt and pepper to taste.",
+        "Tear or slice the mozzarella into thin pieces.",
+        "Have the basil leaves ready to add after baking.",
+        "After baking, drizzle with olive oil and scatter fresh basil leaves."
+      ]
+    },
+    {
+      "id": "topping-2",
+      "name": "Pepperoni",
+      "tags": [
+        "Meat",
+        "Classic"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "3 ",
+          "unit": "oz",
+          "name": "(85g) pepperoni slices (about 20-24 slices)"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "tsp",
+          "name": "dried oregano"
+        }
+      ],
+      "method": [
+        "Mix dried oregano into the tomato sauce.",
+        "Arrange pepperoni slices evenly over the cheese."
+      ]
+    },
+    {
+      "id": "topping-3",
+      "name": "Supreme",
+      "tags": [
+        "Meat",
+        "Classic"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) sliced bell peppers (mix of red and green)"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) sliced red onions"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) sliced mushrooms"
+        },
+        {
+          "amount": "2 ",
+          "unit": "oz",
+          "name": "(55g) pepperoni slices"
+        },
+        {
+          "amount": "2 ",
+          "unit": "oz",
+          "name": "(55g) Italian sausage"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "8-10 black olives"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "tsp",
+          "name": "dried Italian herbs"
+        }
+      ],
+      "method": [
+        "Mix dried Italian herbs into the tomato sauce.",
+        "Sauté mushrooms, bell peppers, and onions for 2-3 minutes until slightly softened.",
+        "Arrange all toppings evenly over the cheese."
+      ]
+    },
+    {
+      "id": "topping-4",
+      "name": "Meat Lovers",
+      "tags": [
+        "Meat",
+        "Classic"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "2 ",
+          "unit": "oz",
+          "name": "(55g) pepperoni slices"
+        },
+        {
+          "amount": "2 ",
+          "unit": "oz",
+          "name": "(55g) ham"
+        },
+        {
+          "amount": "2 ",
+          "unit": "oz",
+          "name": "(55g) cooked bacon"
+        },
+        {
+          "amount": "2 ",
+          "unit": "oz",
+          "name": "(55g) Italian sausage"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "dried oregano"
+        }
+      ],
+      "method": [
+        "Mix dried oregano into the tomato sauce.",
+        "Evenly distribute all meat toppings over the cheese."
+      ]
+    },
+    {
+      "id": "topping-5",
+      "name": "Vegetarian",
+      "tags": [
+        "Vegetarian",
+        "Healthy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) sliced bell peppers (mix of colors)"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) sliced red onions"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) sliced mushrooms"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) sliced zucchini"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "8-10 black olives"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh basil"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "dried Italian herbs"
+        }
+      ],
+      "method": [
+        "Mix dried Italian herbs into the tomato sauce.",
+        "Sauté all vegetables except olives for 3-4 minutes until slightly softened.",
+        "Arrange all vegetables evenly over the cheese.",
+        "Sprinkle with fresh basil after baking."
+      ]
+    },
+    {
+      "id": "topping-6",
+      "name": "Hawaiian",
+      "tags": [
+        "Meat",
+        "Sweet"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) ham"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120g) pineapple chunks"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "ground black pepper"
+        }
+      ],
+      "method": [
+        "Season tomato sauce with black pepper.",
+        "Pat the pineapple chunks dry with paper towels to remove excess moisture.",
+        "Evenly distribute ham and pineapple over the cheese."
+      ]
+    },
+    {
+      "id": "topping-7",
+      "name": "BBQ Chicken",
+      "tags": [
+        "Chicken",
+        "BBQ"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) BBQ sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(140g) cooked chicken breast"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh cilantro"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) gouda or smoked gouda"
+        }
+      ],
+      "method": [
+        "Mix 1 tbsp of BBQ sauce with the chicken to coat it.",
+        "Use BBQ sauce as the base instead of tomato sauce.",
+        "Arrange chicken and red onion over the cheese.",
+        "If using gouda, sprinkle it on top of the mozzarella.",
+        "Add chopped cilantro after baking."
+      ]
+    },
+    {
+      "id": "topping-8",
+      "name": "Four Cheese",
+      "tags": [
+        "Vegetarian",
+        "Classic",
+        "Cheese"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "3/4 ",
+          "unit": "cup",
+          "name": "(85g) shredded mozzarella"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) crumbled blue cheese or gorgonzola"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) soft goat cheese or ricotta"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh basil"
+        }
+      ],
+      "method": [
+        "Mix dried oregano into the tomato sauce.",
+        "Spread mozzarella over the sauce.",
+        "Evenly distribute blue cheese, parmesan, and dollops of goat cheese.",
+        "Sprinkle with fresh basil after baking."
+      ]
+    },
+    {
+      "id": "topping-9",
+      "name": "Mushroom & Truffle",
+      "tags": [
+        "Vegetarian",
+        "Gourmet",
+        "Fungi"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) tomato sauce (light layer)"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) ricotta cheese"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(100g) mixed mushrooms (cremini"
+        },
+        {
+          "amount": "1 ",
+          "unit": "clove",
+          "name": "garlic"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "truffle oil"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh thyme leaves"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and pepper to taste"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "grated parmesan"
+        }
+      ],
+      "method": [
+        "Sauté mushrooms with garlic, salt, and pepper until golden (about 5 minutes).",
+        "Mix ricotta with 1 tsp of truffle oil and spread over the tomato sauce.",
+        "Arrange sautéed mushrooms over the cheese.",
+        "Sprinkle with fresh thyme and parmesan.",
+        "Drizzle with remaining truffle oil after baking."
+      ]
+    },
+    {
+      "id": "topping-10",
+      "name": "Buffalo Chicken",
+      "tags": [
+        "Chicken",
+        "Spicy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(140g) cooked chicken breast"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) buffalo sauce"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) blue cheese dressing (for drizzling after baking)"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "blue cheese crumbles"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh chives"
+        }
+      ],
+      "method": [
+        "Mix the chicken with buffalo sauce to coat thoroughly.",
+        "Arrange chicken and red onion over the cheese.",
+        "Sprinkle with blue cheese crumbles.",
+        "After baking, drizzle with blue cheese dressing and sprinkle with chives."
+      ]
+    },
+    {
+      "id": "topping-11",
+      "name": "Mediterranean",
+      "tags": [
+        "Vegetarian",
+        "International",
+        "Healthy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(40g) red onion"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(40g) artichoke hearts"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(40g) sundried tomatoes"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(40g) kalamata olives"
+        },
+        {
+          "amount": "2 ",
+          "unit": "oz",
+          "name": "(55g) feta cheese"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh basil"
+        }
+      ],
+      "method": [
+        "Mix dried oregano into the tomato sauce.",
+        "Arrange artichoke hearts, sundried tomatoes, olives, and red onion over the cheese.",
+        "Sprinkle with feta cheese.",
+        "Add fresh basil after baking."
+      ]
+    },
+    {
+      "id": "topping-12",
+      "name": "Spinach & Feta",
+      "tags": [
+        "Vegetarian",
+        "Healthy",
+        "Cheese"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cups",
+          "name": "(60g) fresh spinach"
+        },
+        {
+          "amount": "1 ",
+          "unit": "clove",
+          "name": "garlic"
+        },
+        {
+          "amount": "3 ",
+          "unit": "oz",
+          "name": "(85g) feta cheese"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "pine nuts"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "red pepper flakes (optional)"
+        }
+      ],
+      "method": [
+        "Sauté spinach and garlic in olive oil until wilted, then drain excess moisture.",
+        "Spread spinach mixture over the cheese.",
+        "Sprinkle with feta, red onion, and pine nuts.",
+        "Add red pepper flakes if desired."
+      ]
+    },
+    {
+      "id": "topping-13",
+      "name": "Pesto & Chicken",
+      "tags": [
+        "Chicken",
+        "Gourmet"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/3 ",
+          "unit": "cup",
+          "name": "(80ml) pesto sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(140g) cooked chicken breast"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) sundried tomatoes"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) pine nuts"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "grated parmesan"
+        }
+      ],
+      "method": [
+        "Use pesto as the base sauce instead of tomato sauce.",
+        "Arrange chicken, sundried tomatoes, and red onion over the cheese.",
+        "Sprinkle with pine nuts and parmesan."
+      ]
+    },
+    {
+      "id": "topping-14",
+      "name": "Fig & Prosciutto",
+      "tags": [
+        "Meat",
+        "Gourmet",
+        "Sweet"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) olive oil (as base)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) prosciutto"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) fig jam"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) arugula"
+        },
+        {
+          "amount": "2 ",
+          "unit": "oz",
+          "name": "(55g) goat cheese"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "balsamic glaze (for drizzling after baking)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "honey (for drizzling after baking)"
+        }
+      ],
+      "method": [
+        "Brush olive oil as base instead of tomato sauce.",
+        "Dollop small spoonfuls of fig jam over the cheese.",
+        "Add goat cheese in small dollops.",
+        "After baking, arrange prosciutto slices and arugula.",
+        "Drizzle with balsamic glaze and honey."
+      ]
+    },
+    {
+      "id": "topping-15",
+      "name": "Taco Pizza",
+      "tags": [
+        "Meat",
+        "Spicy",
+        "International"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) refried beans or salsa (as base)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded Mexican cheese blend"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1/2 lb (225g) ground beef"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) black olives"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) bell pepper"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) tomato"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) jalapeños"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) sour cream (for serving)"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) guacamole (for serving)"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh cilantro"
+        }
+      ],
+      "method": [
+        "Spread refried beans or salsa as the base.",
+        "Layer with seasoned ground beef.",
+        "Sprinkle with cheese and arrange vegetables.",
+        "After baking, top with fresh diced tomato, sour cream, guacamole, and cilantro."
+      ]
+    },
+    {
+      "id": "topping-16",
+      "name": "White Pizza with Garlic & Herbs",
+      "tags": [
+        "Vegetarian",
+        "Creamy",
+        "Gourmet"
+      ],
+      "ingredients": [
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) ricotta cheese"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh basil"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh parsley"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "fresh rosemary"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "fresh thyme leaves"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and pepper to taste"
+        }
+      ],
+      "method": [
+        "Mix olive oil with minced garlic.",
+        "Blend ricotta with half the herbs, salt, and pepper.",
+        "Spread the ricotta mixture as the base.",
+        "Sprinkle with mozzarella and parmesan.",
+        "Drizzle with garlic oil.",
+        "Top with remaining fresh herbs after baking."
+      ]
+    },
+    {
+      "id": "topping-17",
+      "name": "Greek Pizza",
+      "tags": [
+        "Vegetarian",
+        "International",
+        "Healthy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(40g) red onion"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(40g) bell pepper"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(40g) cucumber"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(40g) tomato"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(40g) kalamata olives"
+        },
+        {
+          "amount": "3 ",
+          "unit": "oz",
+          "name": "(85g) feta cheese"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "fresh lemon zest"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        }
+      ],
+      "method": [
+        "Mix dried oregano into the tomato sauce.",
+        "Arrange onion, bell pepper, cucumber, tomato, and olives over the cheese.",
+        "Sprinkle with feta cheese.",
+        "After baking, drizzle with olive oil and sprinkle with lemon zest."
+      ]
+    },
+    {
+      "id": "topping-18",
+      "name": "Seafood Pizza",
+      "tags": [
+        "Seafood",
+        "Gourmet"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) mixed seafood (cooked shrimp"
+        },
+        {
+          "amount": "1 ",
+          "unit": "clove",
+          "name": "garlic"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh parsley"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "lemon zest"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "red pepper flakes"
+        }
+      ],
+      "method": [
+        "Mix garlic and red pepper flakes into the tomato sauce.",
+        "Toss seafood with olive oil and lemon zest.",
+        "Arrange seafood and red onion over the cheese.",
+        "Sprinkle with fresh parsley after baking."
+      ]
+    },
+    {
+      "id": "topping-19",
+      "name": "Caramelized Onion & Goat Cheese",
+      "tags": [
+        "Vegetarian",
+        "Gourmet",
+        "Cheese"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) olive oil (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "2 large onions"
+        },
+        {
+          "amount": "3 ",
+          "unit": "oz",
+          "name": "(85g) goat cheese"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh thyme leaves"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "balsamic glaze"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) arugula (for after baking)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and pepper to taste"
+        }
+      ],
+      "method": [
+        "Caramelize onions: cook over low heat with 1 tbsp olive oil for 25-30 minutes until golden and sweet.",
+        "Brush olive oil as base instead of tomato sauce.",
+        "Spread caramelized onions over the cheese.",
+        "Add dollops of goat cheese and sprinkle with thyme.",
+        "After baking, top with arugula and drizzle with balsamic glaze."
+      ]
+    },
+    {
+      "id": "topping-20",
+      "name": "Breakfast Pizza",
+      "tags": [
+        "Breakfast",
+        "Meat"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) tomato sauce (light layer)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded cheddar cheese"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "4 eggs"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) bacon"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) bell pepper"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh chives"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and pepper to taste"
+        }
+      ],
+      "method": [
+        "Spread a thin layer of tomato sauce.",
+        "Arrange bacon, onion, and bell pepper over the cheese.",
+        "Crack eggs onto the pizza, keeping yolks intact.",
+        "Season with salt and pepper.",
+        "Sprinkle with fresh chives after baking."
+      ]
+    },
+    {
+      "id": "topping-21",
+      "name": "Alfredo Chicken & Broccoli",
+      "tags": [
+        "Chicken",
+        "Creamy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) alfredo sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(140g) cooked chicken breast"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(100g) broccoli florets"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "red pepper flakes"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "black pepper"
+        }
+      ],
+      "method": [
+        "Mix garlic, red pepper flakes, and black pepper into the alfredo sauce.",
+        "Blanch broccoli for 2 minutes, then shock in cold water.",
+        "Arrange chicken and broccoli over the cheese.",
+        "Sprinkle with parmesan."
+      ]
+    },
+    {
+      "id": "topping-22",
+      "name": "Pear & Gorgonzola",
+      "tags": [
+        "Vegetarian",
+        "Gourmet",
+        "Sweet",
+        "Cheese"
+      ],
+      "ingredients": [
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 ripe pear"
+        },
+        {
+          "amount": "3 ",
+          "unit": "oz",
+          "name": "(85g) gorgonzola cheese"
+        },
+        {
+          "amount": "2 ",
+          "unit": "oz",
+          "name": "(55g) prosciutto"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) walnuts"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "honey (for drizzling after baking)"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) arugula (for after baking)"
+        }
+      ],
+      "method": [
+        "Brush olive oil as base instead of tomato sauce.",
+        "Arrange pear slices over the mozzarella.",
+        "Sprinkle with gorgonzola and walnuts.",
+        "After baking, add prosciutto, arugula, and drizzle with honey."
+      ]
+    },
+    {
+      "id": "topping-23",
+      "name": "Eggplant Parmesan",
+      "tags": [
+        "Vegetarian",
+        "Classic"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 small eggplant"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) breadcrumbs"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh basil"
+        }
+      ],
+      "method": [
+        "Salt eggplant slices and let sit for 30 minutes to draw out moisture.",
+        "Rinse, pat dry, and roast at 400°F for 15 minutes with olive oil.",
+        "Mix dried oregano into the tomato sauce.",
+        "Arrange roasted eggplant over the cheese.",
+        "Mix breadcrumbs with parmesan and sprinkle on top.",
+        "Add fresh basil after baking."
+      ]
+    },
+    {
+      "id": "topping-24",
+      "name": "Caprese",
+      "tags": [
+        "Vegetarian",
+        "Classic",
+        "Cheese"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) tomato sauce (light layer)"
+        },
+        {
+          "amount": "8 ",
+          "unit": "oz",
+          "name": "(225g) fresh mozzarella"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "2 large tomatoes"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(15g) fresh basil leaves"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "balsamic glaze"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "extra virgin olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and freshly ground black pepper to taste"
+        }
+      ],
+      "method": [
+        "Arrange alternating slices of tomato and mozzarella over the light tomato sauce.",
+        "Season with salt and pepper.",
+        "After baking, add fresh basil leaves.",
+        "Drizzle with balsamic glaze and olive oil."
+      ]
+    },
+    {
+      "id": "topping-25",
+      "name": "Thai Chicken",
+      "tags": [
+        "Chicken",
+        "International",
+        "Spicy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/3 ",
+          "unit": "cup",
+          "name": "(80ml) peanut sauce"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(140g) cooked chicken breast"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red bell pepper"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) carrot"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) green onions"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "chopped peanuts"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh cilantro"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh lime juice (for after baking)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "sriracha sauce (optional)"
+        }
+      ],
+      "method": [
+        "Use peanut sauce as the base instead of tomato sauce.",
+        "Arrange chicken, bell pepper, carrot, and half the green onions over the cheese.",
+        "After baking, top with remaining green onions, chopped peanuts, cilantro.",
+        "Drizzle with lime juice and sriracha if desired."
+      ]
+    },
+    {
+      "id": "topping-26",
+      "name": "French Onion",
+      "tags": [
+        "Vegetarian",
+        "International",
+        "Cheese"
+      ],
+      "ingredients": [
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil (as base)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "2 large onions"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "beef bouillon paste"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) gruyère cheese"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(55g) shredded mozzarella"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "fresh thyme leaves"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) croutons"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "Worcestershire sauce"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "black pepper"
+        }
+      ],
+      "method": [
+        "Caramelize onions with beef bouillon paste and Worcestershire sauce.",
+        "Brush olive oil as base instead of tomato sauce.",
+        "Spread caramelized onions over the base.",
+        "Mix the gruyère and mozzarella and sprinkle over onions.",
+        "Top with thyme and black pepper.",
+        "Add croutons in the last 2 minutes of baking."
+      ]
+    },
+    {
+      "id": "topping-27",
+      "name": "Apple & Cheddar",
+      "tags": [
+        "Vegetarian",
+        "Sweet",
+        "Cheese"
+      ],
+      "ingredients": [
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) sharp cheddar cheese"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 Granny Smith apple"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) caramelized onions"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh rosemary"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "honey (for drizzling after baking)"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "cinnamon"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) walnuts"
+        }
+      ],
+      "method": [
+        "Brush olive oil as base instead of tomato sauce.",
+        "Arrange apple slices over the cheddar.",
+        "Spread caramelized onions.",
+        "Sprinkle with rosemary, cinnamon, and walnuts.",
+        "Drizzle with honey after baking."
+      ]
+    },
+    {
+      "id": "topping-28",
+      "name": "Bacon & Egg",
+      "tags": [
+        "Breakfast",
+        "Meat"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) tomato sauce (light layer)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "6 ",
+          "unit": "oz",
+          "name": "(170g) bacon"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "4 eggs"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) green onions"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "black pepper"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "red pepper flakes (optional)"
+        }
+      ],
+      "method": [
+        "Spread a thin layer of tomato sauce.",
+        "Sprinkle with bacon and create four wells in the cheese for the eggs.",
+        "Crack an egg into each well.",
+        "Season with black pepper and red pepper flakes if desired.",
+        "Add green onions in the last 2 minutes of baking."
+      ]
+    },
+    {
+      "id": "topping-29",
+      "name": "Ratatouille",
+      "tags": [
+        "Vegetarian",
+        "International",
+        "Healthy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1/2 small eggplant"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1/2 zucchini"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1/2 yellow squash"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 small bell pepper"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(40g) red onion"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "herbs de Provence"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        }
+      ],
+      "method": [
+        "Toss vegetables with olive oil, garlic, and herbs de Provence.",
+        "Quickly sauté for 2-3 minutes until slightly softened.",
+        "Mix some minced garlic into the tomato sauce.",
+        "Arrange vegetables in concentric circles over the cheese.",
+        "Sprinkle with parmesan."
+      ]
+    },
+    {
+      "id": "topping-30",
+      "name": "Philly Cheesesteak",
+      "tags": [
+        "Meat",
+        "Classic"
+      ],
+      "ingredients": [
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(55g) provolone cheese"
+        },
+        {
+          "amount": "8 ",
+          "unit": "oz",
+          "name": "(225g) ribeye or sirloin steak"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(100g) bell peppers"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(100g) onion"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "Worcestershire sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and pepper to taste"
+        }
+      ],
+      "method": [
+        "Sauté steak, bell peppers, onion, and garlic until steak is browned and vegetables are softened.",
+        "Add Worcestershire sauce, salt, and pepper to the steak mixture.",
+        "Brush olive oil as base instead of tomato sauce.",
+        "Spread steak and vegetable mixture over the base.",
+        "Top with mozzarella and provolone cheeses."
+      ]
+    },
+    {
+      "id": "topping-31",
+      "name": "Potato & Rosemary",
+      "tags": [
+        "Vegetarian",
+        "Gourmet"
+      ],
+      "ingredients": [
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "olive oil (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "8 ",
+          "unit": "oz",
+          "name": "(225g) baby potatoes"
+        },
+        {
+          "amount": "3 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh rosemary"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and pepper to taste"
+        }
+      ],
+      "method": [
+        "Par-boil potato slices for 5 minutes, then drain and pat dry.",
+        "Mix olive oil with half the minced garlic and brush as base.",
+        "Arrange potato slices in overlapping circles.",
+        "Sprinkle with remaining garlic, rosemary, salt, and pepper.",
+        "Top with mozzarella and parmesan cheeses."
+      ]
+    },
+    {
+      "id": "topping-32",
+      "name": "Shrimp Scampi",
+      "tags": [
+        "Seafood",
+        "Gourmet"
+      ],
+      "ingredients": [
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "garlic butter (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "8 ",
+          "unit": "oz",
+          "name": "(225g) shrimp"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "lemon zest"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh parsley"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "red pepper flakes"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and pepper to taste"
+        }
+      ],
+      "method": [
+        "Sauté shrimp with garlic, red pepper flakes, olive oil, salt, and pepper until pink.",
+        "Make garlic butter by mixing 2 tbsp softened butter with 1 clove minced garlic.",
+        "Spread garlic butter as base instead of tomato sauce.",
+        "Arrange shrimp over the cheese.",
+        "Sprinkle with parmesan and lemon zest.",
+        "Add fresh parsley after baking."
+      ]
+    },
+    {
+      "id": "topping-33",
+      "name": "Chicken Tikka Masala",
+      "tags": [
+        "Chicken",
+        "International",
+        "Spicy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tikka masala sauce"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(140g) chicken"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) bell pepper"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh cilantro"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "plain yogurt (for drizzling after baking)"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "garam masala"
+        }
+      ],
+      "method": [
+        "Marinate chicken in 2 tbsp yogurt, 1 tsp garam masala, 1/2 tsp turmeric, and 1 tsp paprika for 30 minutes.",
+        "Cook chicken until done, then dice.",
+        "Use tikka masala sauce as the base instead of tomato sauce.",
+        "Arrange chicken, red onion, and bell pepper over the cheese.",
+        "Sprinkle with garam masala.",
+        "After baking, drizzle with yogurt and sprinkle with cilantro."
+      ]
+    },
+    {
+      "id": "topping-34",
+      "name": "Jalapeño Popper",
+      "tags": [
+        "Vegetarian",
+        "Spicy",
+        "Creamy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) cream cheese"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded cheddar cheese"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(55g) shredded mozzarella"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "4-5 jalapeños"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) bacon"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) green onions"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "garlic powder"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "onion powder"
+        }
+      ],
+      "method": [
+        "Mix softened cream cheese with garlic powder and onion powder.",
+        "Spread cream cheese mixture as base instead of tomato sauce.",
+        "Sprinkle with cheddar and mozzarella.",
+        "Arrange jalapeño slices and bacon over the cheese.",
+        "Top with green onions."
+      ]
+    },
+    {
+      "id": "topping-35",
+      "name": "Balsamic Mushroom & Spinach",
+      "tags": [
+        "Vegetarian",
+        "Healthy",
+        "Fungi"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "8 ",
+          "unit": "oz",
+          "name": "(225g) mushrooms"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cups",
+          "name": "(60g) fresh spinach"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "balsamic vinegar"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "dried thyme"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and pepper to taste"
+        }
+      ],
+      "method": [
+        "Sauté mushrooms with garlic, olive oil, salt, and pepper until golden.",
+        "Add balsamic vinegar and reduce slightly.",
+        "In a separate pan, sauté spinach until wilted.",
+        "Spread mushroom mixture and spinach over the cheese.",
+        "Sprinkle with parmesan and dried thyme."
+      ]
+    },
+    {
+      "id": "topping-36",
+      "name": "Chorizo & Corn",
+      "tags": [
+        "Meat",
+        "Spicy",
+        "International"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "6 ",
+          "unit": "oz",
+          "name": "(170g) chorizo"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(75g) corn kernels"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red bell pepper"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh cilantro"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "smoked paprika"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "cumin"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) lime crema (mix 1/4 cup sour cream with lime juice and zest)"
+        }
+      ],
+      "method": [
+        "Mix smoked paprika and cumin into the tomato sauce.",
+        "Cook chorizo until crispy, then crumble.",
+        "Arrange chorizo, corn, red onion, and bell pepper over the cheese.",
+        "After baking, drizzle with lime crema and sprinkle with cilantro."
+      ]
+    },
+    {
+      "id": "topping-37",
+      "name": "Roasted Garlic & Sundried Tomato",
+      "tags": [
+        "Vegetarian",
+        "Gourmet"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 whole head of garlic"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(80g) sundried tomatoes"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) roasted red peppers"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(15g) fresh basil"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "red pepper flakes"
+        }
+      ],
+      "method": [
+        "Roast garlic: Cut top off garlic head, drizzle with olive oil, wrap in foil, bake at 400°F for 30-40 minutes until soft.",
+        "Squeeze roasted garlic cloves from skins and mash into a paste.",
+        "Mix some of the garlic paste into the tomato sauce.",
+        "Dot the remaining garlic paste over the cheese.",
+        "Arrange sundried tomatoes and roasted red peppers.",
+        "Sprinkle with parmesan and red pepper flakes.",
+        "Add fresh basil after baking."
+      ]
+    },
+    {
+      "id": "topping-38",
+      "name": "Buffalo Cauliflower",
+      "tags": [
+        "Vegetarian",
+        "Spicy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) ranch or blue cheese dressing (as base)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cups",
+          "name": "(200g) cauliflower florets"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) buffalo sauce"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "2 ",
+          "unit": "oz",
+          "name": "(55g) blue cheese"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh chives"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and pepper to taste"
+        }
+      ],
+      "method": [
+        "Toss cauliflower with olive oil, salt, and pepper, then roast at 425°F for 20 minutes until golden.",
+        "Toss roasted cauliflower with buffalo sauce.",
+        "Spread ranch or blue cheese dressing as base instead of tomato sauce.",
+        "Arrange cauliflower and red onion over the cheese.",
+        "Sprinkle with blue cheese.",
+        "Top with fresh chives after baking."
+      ]
+    },
+    {
+      "id": "topping-39",
+      "name": "Sausage & Peppers",
+      "tags": [
+        "Meat",
+        "Classic"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "8 ",
+          "unit": "oz",
+          "name": "(225g) Italian sausage"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(100g) mixed bell peppers"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(50g) onion"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "dried basil"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "red pepper flakes"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        }
+      ],
+      "method": [
+        "Mix dried herbs, garlic, and red pepper flakes into the tomato sauce.",
+        "Cook sausage until browned, then slice.",
+        "Sauté peppers and onions until slightly softened.",
+        "Arrange sausage, peppers, and onions over the cheese.",
+        "Sprinkle with parmesan."
+      ]
+    },
+    {
+      "id": "topping-40",
+      "name": "Sweet Potato & Kale",
+      "tags": [
+        "Vegetarian",
+        "Healthy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 medium sweet potato"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(30g) kale"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) goat cheese"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "honey (for drizzling after baking)"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "cinnamon"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and pepper to taste"
+        }
+      ],
+      "method": [
+        "Toss sweet potato slices with olive oil, cinnamon, salt, and pepper, then roast at 400°F for 15-20 minutes until tender.",
+        "Sauté kale and garlic in olive oil until kale is wilted.",
+        "Arrange sweet potato slices, kale, and red onion over the cheese.",
+        "Top with goat cheese.",
+        "Drizzle with honey after baking."
+      ]
+    },
+    {
+      "id": "topping-41",
+      "name": "Bacon Cheeseburger",
+      "tags": [
+        "Meat",
+        "Classic"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce mixed with 2 tbsp mustard"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded cheddar cheese"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(55g) shredded mozzarella"
+        },
+        {
+          "amount": "8 ",
+          "unit": "oz",
+          "name": "(225g) ground beef"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) bacon"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) diced pickles"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "ketchup (for drizzling)"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "yellow mustard (for drizzling)"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) shredded lettuce (for after baking)"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "sesame seeds (optional)"
+        }
+      ],
+      "method": [
+        "Mix tomato sauce with mustard.",
+        "Cook ground beef until browned, season with salt and pepper.",
+        "Arrange ground beef, bacon, pickles, and red onion over the cheese.",
+        "After baking, drizzle with ketchup and mustard.",
+        "Top with shredded lettuce and sesame seeds if desired."
+      ]
+    },
+    {
+      "id": "topping-42",
+      "name": "Pulled Pork BBQ",
+      "tags": [
+        "Meat",
+        "BBQ"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) BBQ sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(140g) pulled pork"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) jalapeños"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) coleslaw (for after baking)"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh cilantro"
+        }
+      ],
+      "method": [
+        "Use BBQ sauce as the base instead of tomato sauce.",
+        "Warm pulled pork with a bit of additional BBQ sauce.",
+        "Arrange pulled pork, red onion, and jalapeños over the cheese.",
+        "After baking, top with coleslaw and cilantro."
+      ]
+    },
+    {
+      "id": "topping-43",
+      "name": "Pineapple Jalapeño",
+      "tags": [
+        "Sweet",
+        "Spicy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120g) pineapple chunks"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) jalapeños"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) bacon"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "ground black pepper"
+        }
+      ],
+      "method": [
+        "Pat the pineapple chunks dry with paper towels to remove excess moisture.",
+        "Arrange pineapple, jalapeños, red onion, and bacon over the cheese.",
+        "Season with black pepper."
+      ]
+    },
+    {
+      "id": "topping-44",
+      "name": "Artichoke & Olive",
+      "tags": [
+        "Vegetarian",
+        "International",
+        "Healthy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) tomato sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(80g) artichoke hearts"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(40g) kalamata olives"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(40g) green olives"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh parsley"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "dried oregano"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) feta cheese"
+        }
+      ],
+      "method": [
+        "Mix dried oregano and minced garlic into the tomato sauce.",
+        "Arrange artichoke hearts, olives, and red onion over the cheese.",
+        "Sprinkle with feta cheese.",
+        "Add fresh parsley after baking."
+      ]
+    },
+    {
+      "id": "topping-45",
+      "name": "Asparagus & Prosciutto",
+      "tags": [
+        "Meat",
+        "Gourmet"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) olive oil (as base)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 bunch asparagus"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) prosciutto"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 lemon"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh thyme leaves"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Freshly ground black pepper"
+        }
+      ],
+      "method": [
+        "Blanch asparagus for 2 minutes, then shock in cold water.",
+        "Brush olive oil as base instead of tomato sauce.",
+        "Arrange asparagus spears over the cheese.",
+        "After baking, lay prosciutto slices over the hot pizza.",
+        "Sprinkle with parmesan, lemon zest, thyme, and black pepper."
+      ]
+    },
+    {
+      "id": "topping-46",
+      "name": "Avocado & Black Bean",
+      "tags": [
+        "Vegetarian",
+        "International",
+        "Healthy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120ml) salsa (as base)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded Mexican cheese blend"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(80g) black beans"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) corn kernels"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) bell pepper"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 avocado"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh cilantro"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 lime"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "cumin"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "chili powder"
+        }
+      ],
+      "method": [
+        "Use salsa as the base instead of tomato sauce.",
+        "Mix black beans with cumin and chili powder.",
+        "Arrange beans, corn, red onion, and bell pepper over the cheese.",
+        "After baking, top with fresh avocado slices and cilantro.",
+        "Serve with lime wedges."
+      ]
+    },
+    {
+      "id": "topping-47",
+      "name": "Brussels Sprout & Pancetta",
+      "tags": [
+        "Meat",
+        "Gourmet"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) olive oil (as base)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(100g) Brussels sprouts"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) pancetta"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "balsamic glaze"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "red pepper flakes"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and pepper to taste"
+        }
+      ],
+      "method": [
+        "Crisp pancetta in a pan, remove and set aside.",
+        "Sauté Brussels sprouts and garlic in the pancetta fat until slightly charred.",
+        "Mix olive oil with minced garlic and use as base.",
+        "Arrange Brussels sprouts and pancetta over the cheese.",
+        "Sprinkle with parmesan and red pepper flakes.",
+        "Drizzle with balsamic glaze after baking."
+      ]
+    },
+    {
+      "id": "topping-48",
+      "name": "Sun-Dried Tomato & Ricotta",
+      "tags": [
+        "Vegetarian",
+        "Creamy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) tomato sauce (light layer)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(120g) ricotta cheese"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(80g) sun-dried tomatoes"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) roasted red peppers"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(15g) fresh basil"
+        },
+        {
+          "amount": "2 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "red pepper flakes"
+        }
+      ],
+      "method": [
+        "Mix ricotta with half the garlic, some basil, salt, and pepper.",
+        "Drop spoonfuls of ricotta over the light tomato sauce.",
+        "Arrange sun-dried tomatoes and roasted red peppers.",
+        "Sprinkle with mozzarella and parmesan.",
+        "Mix olive oil with remaining garlic and drizzle over top.",
+        "Add fresh basil and red pepper flakes after baking."
+      ]
+    },
+    {
+      "id": "topping-49",
+      "name": "Smoked Salmon & Dill",
+      "tags": [
+        "Seafood",
+        "Gourmet"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) cream cheese"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) smoked salmon"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "capers"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh dill"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "lemon zest"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Freshly ground black pepper"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil"
+        }
+      ],
+      "method": [
+        "Spread softened cream cheese as base instead of tomato sauce.",
+        "Sprinkle with mozzarella cheese.",
+        "After baking, arrange smoked salmon pieces, red onion, and capers.",
+        "Sprinkle with fresh dill and lemon zest.",
+        "Drizzle with olive oil and add black pepper."
+      ]
+    },
+    {
+      "id": "topping-50",
+      "name": "Cuban",
+      "tags": [
+        "Meat",
+        "International"
+      ],
+      "ingredients": [
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "yellow mustard (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(55g) shredded Swiss cheese"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) ham"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) roasted pork"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) dill pickles"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "pickle juice"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "dried oregano"
+        }
+      ],
+      "method": [
+        "Spread yellow mustard as base instead of tomato sauce.",
+        "Layer ham and roasted pork over the cheese.",
+        "Arrange pickle slices.",
+        "Sprinkle with Swiss cheese.",
+        "Mix pickle juice with dried oregano and drizzle over top."
+      ]
+    },
+    {
+      "id": "topping-51",
+      "name": "Peking Duck",
+      "tags": [
+        "Meat",
+        "International",
+        "Gourmet"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) hoisin sauce (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "6 ",
+          "unit": "oz",
+          "name": "(170g) roasted duck"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) green onions"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) cucumber"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh cilantro"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "sesame seeds"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "five-spice powder"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "sesame oil"
+        }
+      ],
+      "method": [
+        "Spread hoisin sauce as base instead of tomato sauce.",
+        "Arrange shredded duck over the cheese.",
+        "Sprinkle with five-spice powder.",
+        "After baking, top with green onions, cucumber, and cilantro.",
+        "Drizzle with sesame oil and sprinkle with sesame seeds."
+      ]
+    },
+    {
+      "id": "topping-52",
+      "name": "Goat Cheese & Honey",
+      "tags": [
+        "Vegetarian",
+        "Sweet",
+        "Cheese"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) olive oil (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) goat cheese"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) walnuts"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "honey"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh thyme leaves"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) arugula (for after baking)"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "black pepper"
+        }
+      ],
+      "method": [
+        "Brush olive oil as base instead of tomato sauce.",
+        "Spread mozzarella and drop dollops of goat cheese.",
+        "Sprinkle with walnuts and thyme.",
+        "After baking, top with arugula.",
+        "Drizzle with honey and add black pepper."
+      ]
+    },
+    {
+      "id": "topping-53",
+      "name": "Clam & Garlic",
+      "tags": [
+        "Seafood",
+        "Gourmet"
+      ],
+      "ingredients": [
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "olive oil (as base)"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "6 ",
+          "unit": "oz",
+          "name": "(170g) canned clams"
+        },
+        {
+          "amount": "4 ",
+          "unit": "cloves",
+          "name": "garlic"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh parsley"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "red pepper flakes"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "lemon zest"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Freshly ground black pepper"
+        }
+      ],
+      "method": [
+        "Mix olive oil with half the minced garlic and use as base.",
+        "Spread clams over the cheese.",
+        "Sprinkle with remaining garlic, parmesan, and red pepper flakes.",
+        "After baking, add fresh parsley, lemon zest, and black pepper."
+      ]
+    },
+    {
+      "id": "topping-54",
+      "name": "Apple, Bacon & Blue Cheese",
+      "tags": [
+        "Meat",
+        "Sweet",
+        "Cheese"
+      ],
+      "ingredients": [
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "olive oil (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 apple"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) bacon"
+        },
+        {
+          "amount": "2 ",
+          "unit": "oz",
+          "name": "(55g) blue cheese"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) caramelized onions"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh rosemary"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "honey (for drizzling after baking)"
+        }
+      ],
+      "method": [
+        "Brush olive oil as base instead of tomato sauce.",
+        "Arrange apple slices and caramelized onions over the cheese.",
+        "Sprinkle with bacon, blue cheese, and rosemary.",
+        "Drizzle with honey after baking."
+      ]
+    },
+    {
+      "id": "topping-55",
+      "name": "Chicken Pesto Alfredo",
+      "tags": [
+        "Chicken",
+        "Creamy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) alfredo sauce"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) pesto sauce"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 1/2 cups (170g) shredded mozzarella"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(140g) cooked chicken breast"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) sundried tomatoes"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) roasted red peppers"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) grated parmesan"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "pine nuts"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh basil"
+        }
+      ],
+      "method": [
+        "Mix alfredo and pesto sauces together for the base.",
+        "Arrange chicken, sundried tomatoes, and roasted red peppers over the cheese.",
+        "Sprinkle with parmesan and pine nuts.",
+        "Add fresh basil after baking."
+      ]
+    },
+    {
+      "id": "topping-56",
+      "name": "Kimchi & Pork Belly",
+      "tags": [
+        "Meat",
+        "International",
+        "Spicy"
+      ],
+      "ingredients": [
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "gochujang sauce mixed with 2 tbsp soy sauce (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(55g) shredded white cheddar"
+        },
+        {
+          "amount": "6 ",
+          "unit": "oz",
+          "name": "(170g) pork belly"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(50g) kimchi"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) green onions"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "sesame seeds"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "sesame oil"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "honey"
+        }
+      ],
+      "method": [
+        "Mix gochujang and soy sauce for the base.",
+        "Arrange pork belly and kimchi over the cheese.",
+        "Mix honey with sesame oil and drizzle over top.",
+        "After baking, sprinkle with green onions and sesame seeds."
+      ]
+    },
+    {
+      "id": "topping-57",
+      "name": "Butternut Squash & Sage",
+      "tags": [
+        "Vegetarian",
+        "Sweet",
+        "Gourmet"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) olive oil (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(55g) shredded fontina cheese"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(100g) butternut squash"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) caramelized onions"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh sage leaves"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) walnuts"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "honey (for drizzling after baking)"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "cinnamon"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "nutmeg"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and pepper to taste"
+        }
+      ],
+      "method": [
+        "Toss butternut squash with olive oil, cinnamon, nutmeg, salt, and pepper, then roast at 400°F for 20 minutes until tender.",
+        "Brush olive oil as base.",
+        "Arrange butternut squash and caramelized onions over the cheese.",
+        "Sprinkle with sage and walnuts.",
+        "Drizzle with honey after baking."
+      ]
+    },
+    {
+      "id": "topping-58",
+      "name": "Elote (Mexican Street Corn)",
+      "tags": [
+        "Vegetarian",
+        "International",
+        "Spicy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) mayonnaise mixed with 1 tbsp lime juice (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(55g) cotija cheese"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(150g) corn kernels"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 jalapeño"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh cilantro"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tsp",
+          "name": "chili powder"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "cumin"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 lime"
+        }
+      ],
+      "method": [
+        "Char corn kernels in a dry skillet until slightly blackened.",
+        "Mix mayonnaise with lime juice and use as base.",
+        "Arrange charred corn, red onion, and jalapeño over the cheese.",
+        "Sprinkle with cotija cheese, chili powder, and cumin.",
+        "After baking, top with fresh cilantro.",
+        "Serve with lime wedges."
+      ]
+    },
+    {
+      "id": "topping-59",
+      "name": "Lobster Thermidor",
+      "tags": [
+        "Seafood",
+        "Gourmet",
+        "Creamy"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) bechamel sauce (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded gruyère cheese"
+        },
+        {
+          "amount": "6 ",
+          "unit": "oz",
+          "name": "(170g) lobster meat"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "brandy or cognac"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "dijon mustard"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) shallots"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "fresh tarragon"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh chives"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "paprika"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "lemon zest"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "Salt and white pepper to taste"
+        }
+      ],
+      "method": [
+        "Mix dijon mustard and brandy into the bechamel sauce.",
+        "Sauté shallots until translucent.",
+        "Mix lobster meat with half the tarragon, salt, and white pepper.",
+        "Spread bechamel as base.",
+        "Arrange lobster meat and sautéed shallots over the cheese.",
+        "Sprinkle with paprika.",
+        "After baking, add lemon zest, fresh tarragon, and chives."
+      ]
+    },
+    {
+      "id": "topping-60",
+      "name": "Maple Bacon & Sweet Potato",
+      "tags": [
+        "Meat",
+        "Sweet"
+      ],
+      "ingredients": [
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(60ml) olive oil (as base)"
+        },
+        {
+          "amount": "1 ",
+          "unit": "cup",
+          "name": "(115g) shredded mozzarella"
+        },
+        {
+          "amount": "1/2 ",
+          "unit": "cup",
+          "name": "(55g) shredded cheddar cheese"
+        },
+        {
+          "amount": "",
+          "unit": "",
+          "name": "1 sweet potato"
+        },
+        {
+          "amount": "4 ",
+          "unit": "oz",
+          "name": "(115g) bacon"
+        },
+        {
+          "amount": "2 ",
+          "unit": "tbsp",
+          "name": "maple syrup"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "cup",
+          "name": "(25g) red onion"
+        },
+        {
+          "amount": "1 ",
+          "unit": "tbsp",
+          "name": "fresh thyme leaves"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "cinnamon"
+        },
+        {
+          "amount": "1/4 ",
+          "unit": "tsp",
+          "name": "black pepper"
+        }
+      ],
+      "method": [
+        "Toss sweet potato slices with olive oil, cinnamon, salt, and pepper, then roast at 400°F for 15-20 minutes until tender.",
+        "Brush olive oil as base.",
+        "Arrange sweet potato slices and red onion over the cheese.",
+        "Sprinkle with bacon and thyme.",
+        "Drizzle with maple syrup before baking."
+      ]
+    }
+  ]
+}

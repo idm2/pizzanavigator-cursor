@@ -1,0 +1,137 @@
+{
+  "ovenTypes": [
+    {
+      "id": "conventional",
+      "name": "Conventional Oven",
+      "description": "Standard home oven without special pizza-making features.",
+      "temperatureRanges": {
+        "round": {
+          "min": "450°F (230°C)",
+          "max": "500°F (260°C)",
+          "recommended": "As high as your oven can go, preferably 500°F (260°C)"
+        },
+        "pan": {
+          "min": "425°F (220°C)",
+          "max": "475°F (245°C)",
+          "recommended": "450°F (230°C)"
+        }
+      },
+      "generalInstructions": [
+        "Preheat your oven for at least 30 minutes before baking.",
+        "For round pizzas, position the rack in the lower third of the oven.",
+        "For pan pizzas, position the rack in the middle of the oven.",
+        "Consider using a baking steel or pizza stone to enhance heat distribution."
+      ],
+      "pros": [
+        "Accessible to everyone",
+        "No special equipment needed",
+        "Familiar and easy to use"
+      ],
+      "cons": [
+        "Limited maximum temperature",
+        "Slower cooking times",
+        "Less crispy results than specialty ovens",
+        "Uneven heat distribution"
+      ]
+    },
+    {
+      "id": "pizza-stone",
+      "name": "Pizza Stone in Conventional Oven",
+      "description": "A conventional oven with a pizza stone or steel for improved heat retention and distribution.",
+      "temperatureRanges": {
+        "round": {
+          "min": "450°F (230°C)",
+          "max": "550°F (290°C)",
+          "recommended": "500°F (260°C) or as high as your oven can go"
+        },
+        "pan": {
+          "min": "425°F (220°C)",
+          "max": "475°F (245°C)",
+          "recommended": "450°F (230°C)"
+        }
+      },
+      "generalInstructions": [
+        "Place pizza stone on the lowest rack of your oven.",
+        "Preheat the stone for at least 45-60 minutes before baking.",
+        "Use a pizza peel dusted with semolina or cornmeal to slide pizza onto the hot stone.",
+        "For pan pizzas, place the pan directly on the hot stone."
+      ],
+      "pros": [
+        "Better crust than conventional oven alone",
+        "Retains heat for multiple pizzas",
+        "More even cooking",
+        "Absorbs moisture for crispier crusts"
+      ],
+      "cons": [
+        "Requires preheating time (45-60 minutes)",
+        "Can be challenging to slide pizza onto stone",
+        "Still limited by oven's maximum temperature",
+        "Stone can break if not properly cared for"
+      ]
+    },
+    {
+      "id": "pizza-oven",
+      "name": "Dedicated Pizza Oven",
+      "description": "Specialized high-temperature oven designed specifically for pizza making, often wood-fired, gas-powered, or electric.",
+      "temperatureRanges": {
+        "round": {
+          "min": "400°C (750°F)",
+          "max": "500°C (930°F)",
+          "recommended": "400-460°C (750-860°F)"
+        },
+        "pan": {
+          "min": "350°C (660°F)",
+          "max": "400°C (750°F)",
+          "recommended": "370°C (700°F)"
+        }
+      },
+      "generalInstructions": [
+        "Fully heat the oven for 30-60 minutes before cooking.",
+        "For wood-fired ovens, maintain a small flame during cooking.",
+        "Rotate pizza frequently (every 20-30 seconds) for even cooking.",
+        "Keep an infrared thermometer handy to monitor surface temperatures.",
+        "For pan pizzas, use heat-resistant metal pans and position away from direct flames."
+      ],
+      "typeSpecific": {
+        "wood-fired": {
+          "description": "Traditional brick ovens heated by burning wood.",
+          "notes": [
+            "Creates distinctive smoky flavor",
+            "Heat level varies throughout the dome",
+            "Requires skill to maintain proper temperature"
+          ]
+        },
+        "gas": {
+          "description": "Modern pizza ovens powered by gas burners.",
+          "notes": [
+            "Easier temperature control than wood-fired",
+            "Quick to heat up",
+            "More consistent results",
+            "No wood management needed"
+          ]
+        },
+        "electric": {
+          "description": "Countertop or outdoor electric pizza ovens.",
+          "notes": [
+            "Most convenient option",
+            "Precise temperature control",
+            "Can reach 500°C in compact units",
+            "No fuel management"
+          ]
+        }
+      },
+      "pros": [
+        "Extremely high temperatures",
+        "Very fast cooking times (60-90 seconds for Neapolitan)",
+        "Authentic results with proper char",
+        "Superior texture with proper rise and crisp exterior"
+      ],
+      "cons": [
+        "Expensive equipment",
+        "Requires practice and skill",
+        "Limited cooking space in many models",
+        "For wood-fired: requires fuel management"
+      ]
+    }
+  ]
+} 

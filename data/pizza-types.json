@@ -1,0 +1,423 @@
+{
+  "pizzaTypes": [
+    {
+      "id": "neapolitan",
+      "name": "Neapolitan",
+      "description": "Classic Neapolitan-style pizza with a thin center and puffy, airy crust.",
+      "shape": "round",
+      "doughProperties": {
+        "doughWeightCM": 0.34262591,
+        "doughWeightInch": 2.210485321,
+        "hydration": 65,
+        "salt": 2,
+        "oil": 0,
+        "sugar": 0,
+        "flourType": "Type 00"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "500°F (260°C) or as high as your oven goes",
+          "time": "8-10 minutes",
+          "prepMethod": "Place pizza on the middle rack."
+        },
+        "pizzaStone": {
+          "temperature": "500°F (260°C) or as high as your oven goes",
+          "time": "6-8 minutes",
+          "prepMethod": "Preheat stone for 45-60 minutes, slide pizza directly onto hot stone."
+        },
+        "pizzaOven": {
+          "temperature": "400-460°C (750-860°F)",
+          "time": "60-90 seconds",
+          "prepMethod": "Rotate pizza every 20-30 seconds to ensure even baking."
+        }
+      }
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "description": "Large, foldable slices with a chewy crust.",
+      "shape": "round",
+      "doughProperties": {
+        "doughWeightCM": 0.3524152217,
+        "doughWeightInch": 2.273642044,
+        "hydration": 65,
+        "salt": 3,
+        "oil": 4,
+        "sugar": 2,
+        "flourType": "Bread Flour"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "475-500°F (245-260°C)",
+          "time": "12-15 minutes",
+          "prepMethod": "Place pizza on the middle rack."
+        },
+        "pizzaStone": {
+          "temperature": "475-500°F (245-260°C)",
+          "time": "10-12 minutes",
+          "prepMethod": "Preheat stone for 45-60 minutes, slide pizza directly onto hot stone."
+        },
+        "pizzaOven": {
+          "temperature": "650-700°F (340-370°C)",
+          "time": "4-5 minutes",
+          "prepMethod": "Watch carefully to prevent burning as the crust is thicker than Neapolitan."
+        }
+      }
+    },
+    {
+      "id": "thin-n-crispy",
+      "name": "Thin & Crispy",
+      "description": "Extra thin and crispy crust throughout.",
+      "shape": "round",
+      "doughProperties": {
+        "doughWeightCM": 0.2478995328,
+        "doughWeightInch": 1.586042339,
+        "hydration": 50,
+        "salt": 2,
+        "oil": 5,
+        "sugar": 2,
+        "flourType": "Bread Flour"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "530-570°F (280-300°C)",
+          "time": "8 minutes",
+          "prepMethod": "Place in the lower third of the oven on a preheated baking sheet."
+        },
+        "pizzaStone": {
+          "temperature": "530-570°F (280-300°C)",
+          "time": "6-7 minutes",
+          "prepMethod": "Preheat stone for 45-60 minutes, slide pizza directly onto hot stone."
+        },
+        "pizzaOven": {
+          "temperature": "530-570°F (280-300°C)",
+          "time": "5 minutes",
+          "prepMethod": "Watch closely as this style cooks quickly and can burn easily."
+        }
+      }
+    },
+    {
+      "id": "detroit",
+      "name": "Detroit",
+      "description": "Rectangular deep-dish pizza with crispy, caramelized cheese edges.",
+      "shape": "pan",
+      "doughProperties": {
+        "doughWeightCM": 0.5923226132,
+        "doughWeightInch": 3.821428571,
+        "hydration": 75,
+        "salt": 2,
+        "oil": 5,
+        "sugar": 2,
+        "flourType": "Bread Flour"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "475-500°F (245-260°C)",
+          "time": "12-15 minutes",
+          "prepMethod": "Use a blue steel or anodized aluminum pan, oil generously before adding dough."
+        },
+        "pizzaStone": {
+          "temperature": "475-500°F (245-260°C)",
+          "time": "12-15 minutes",
+          "prepMethod": "Place pan directly on preheated stone."
+        },
+        "pizzaOven": {
+          "temperature": "650°F (345°C)",
+          "time": "9-11 minutes",
+          "prepMethod": "Par-bake dough for 3 minutes, then add toppings and continue baking 6-8 minutes."
+        }
+      }
+    },
+    {
+      "id": "chicago-deep-dish",
+      "name": "Chicago Deep-Dish",
+      "description": "Deep pan pizza with a tall edge and chunky tomato sauce on top.",
+      "shape": "pan",
+      "doughProperties": {
+        "doughWeightCM": 0.8357026639,
+        "doughWeightInch": 5.391619307,
+        "hydration": 55,
+        "salt": 2,
+        "sugar": 2,
+        "oil": 6,
+        "butter": 6,
+        "cornmeal": 8,
+        "flourType": "All Purpose & Bread"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "425-450°F (220-230°C)",
+          "time": "25-35 minutes",
+          "prepMethod": "Use a deep dish pan, cover with foil for first 15 minutes to prevent over-browning."
+        },
+        "pizzaStone": {
+          "temperature": "425-450°F (220-230°C)",
+          "time": "25-30 minutes",
+          "prepMethod": "Place pan on preheated stone, cover with foil for the first 15 minutes."
+        },
+        "pizzaOven": {
+          "temperature": "500˚F (260˚C)",
+          "time": "25 mins",
+          "prepMethod": "Turn pizza every 3-4 minutes for even cooking, keep away from direct flames."
+        }
+      }
+    },
+    {
+      "id": "sicilian",
+      "name": "Sicilian",
+      "description": "Thick, rectangular pizza with a fluffy, spongy dough and crispy bottom.",
+      "shape": "pan",
+      "doughProperties": {
+        "doughWeightCM": 0.6623944872,
+        "doughWeightInch": 4.273504274,
+        "hydration": 75,
+        "salt": 2,
+        "sugar": 2,
+        "oil": 4,
+        "flourType": "Bread Flour"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "450°F (230°C)",
+          "time": "20-25 minutes",
+          "prepMethod": "Use a well-oiled rectangular pan, dimple dough with fingertips before baking."
+        },
+        "pizzaStone": {
+          "temperature": "450°F (230°C)",
+          "time": "18-22 minutes",
+          "prepMethod": "Place pan on preheated stone."
+        },
+        "pizzaOven": {
+          "temperature": "500°F (260°C)",
+          "time": "15-20 minutes",
+          "prepMethod": "Keep pan away from direct flames, rotate for even cooking."
+        }
+      }
+    },
+    {
+      "id": "greek",
+      "name": "Greek Pizza",
+      "description": "Slightly thick crust with an oily bottom, baked in a shallow pan.",
+      "shape": "round",
+      "doughProperties": {
+        "doughWeightCM": 0.4460167046,
+        "doughWeightInch": 2.877521371,
+        "hydration": 60,
+        "salt": 2,
+        "sugar": 2,
+        "oil": 6,
+        "flourType": "Bread Flour"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "450°F (230°C)",
+          "time": "15-20 minutes",
+          "prepMethod": "Bake in a well-oiled metal pan until golden brown."
+        },
+        "pizzaStone": {
+          "temperature": "450°F (230°C)",
+          "time": "15-18 minutes",
+          "prepMethod": "Place pan on preheated stone."
+        },
+        "pizzaOven": {
+          "temperature": "500°F (260°C)",
+          "time": "12-15 minutes",
+          "prepMethod": "Position pan away from direct flames, rotate for even cooking."
+        }
+      }
+    },
+    {
+      "id": "grandma",
+      "name": "Grandma Pizza",
+      "description": "Thin, rectangular pizza similar to Sicilian but with a thinner crust.",
+      "shape": "pan",
+      "doughProperties": {
+        "doughWeightCM": 0.4270416704,
+        "doughWeightInch": 2.755102041,
+        "hydration": 70,
+        "salt": 2,
+        "sugar": 2,
+        "oil": 4,
+        "flourType": "Bread Flour"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "450°F (230°C)",
+          "time": "15-20 minutes",
+          "prepMethod": "Stretch dough in an olive oil-coated rectangular pan."
+        },
+        "pizzaStone": {
+          "temperature": "450°F (230°C)",
+          "time": "15-18 minutes",
+          "prepMethod": "Place pan directly on preheated stone."
+        },
+        "pizzaOven": {
+          "temperature": "500°F (260°C)",
+          "time": "12-15 minutes",
+          "prepMethod": "Keep pan away from direct flames, rotate for even cooking."
+        }
+      }
+    },
+    {
+      "id": "roman",
+      "name": "Roman Style Pizza",
+      "description": "Rectangular pizza with a light, airy, highly hydrated dough.",
+      "shape": "pan",
+      "doughProperties": {
+        "doughWeightCM": 0.439167545,
+        "doughWeightInch": 2.833333333,
+        "hydration": 80,
+        "salt": 2,
+        "oil": 5,
+        "sugar": 0,
+        "flourType": "Type 00 & Bread Flour"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "500°F (260°C)",
+          "time": "8-10 minutes",
+          "prepMethod": "Use a rectangular pan, dimple dough before adding toppings."
+        },
+        "pizzaStone": {
+          "temperature": "500°F (260°C)",
+          "time": "7-9 minutes",
+          "prepMethod": "Place pan on preheated stone."
+        },
+        "pizzaOven": {
+          "temperature": "580°F (300°C)",
+          "time": "3-4 minutes",
+          "prepMethod": "Position pan away from direct flames, ensure even heat distribution."
+        }
+      }
+    },
+    {
+      "id": "california",
+      "name": "California Pizza",
+      "description": "Thin-crust pizza with non-traditional, creative toppings.",
+      "shape": "round",
+      "doughProperties": {
+        "doughWeightCM": 0.411151092,
+        "doughWeightInch": 2.652582385,
+        "hydration": 60,
+        "salt": 2,
+        "oil": 3,
+        "sugar": 0,
+        "sourdoughStarter": 10,
+        "flourType": "Bread Flour"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "450°F (230°C)",
+          "time": "12-15 minutes",
+          "prepMethod": "Use a pizza pan or baking sheet, or bake directly on a rack for extra crispness."
+        },
+        "pizzaStone": {
+          "temperature": "450°F (230°C)",
+          "time": "10-12 minutes",
+          "prepMethod": "Slide pizza directly onto preheated stone."
+        },
+        "pizzaOven": {
+          "temperature": "500°F (260°C)",
+          "time": "8-10 minutes",
+          "prepMethod": "Watch carefully to prevent delicate toppings from burning."
+        }
+      }
+    },
+    {
+      "id": "st-louis",
+      "name": "St. Louis Style Pizza",
+      "description": "Ultra-thin, cracker-like crust with no edge, cut into squares.",
+      "shape": "round",
+      "doughProperties": {
+        "doughWeightCM": 0.239838137,
+        "doughWeightInch": 1.547339725,
+        "hydration": 40,
+        "salt": 0,
+        "oil": 10,
+        "sugar": 0,
+        "flourType": "Self Raising Flour"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "450°F (230°C)",
+          "time": "10-12 minutes",
+          "prepMethod": "Use a large circular pan without a raised edge."
+        },
+        "pizzaStone": {
+          "temperature": "450°F (230°C)",
+          "time": "8-10 minutes",
+          "prepMethod": "Slide directly onto hot stone or use a thin metal tray."
+        },
+        "pizzaOven": {
+          "temperature": "500°F (260°C)",
+          "time": "8-10 minutes",
+          "prepMethod": "Watch carefully as the thin crust cooks quickly."
+        }
+      }
+    },
+    {
+      "id": "new-haven",
+      "name": "New Haven Style",
+      "description": "Thin, charred, chewy crust, slightly oblong in shape.",
+      "shape": "round",
+      "doughProperties": {
+        "doughWeightCM": 0.408,
+        "doughWeightInch": 2.63,
+        "hydration": 65,
+        "salt": 2,
+        "oil": 1,
+        "sugar": 0,
+        "flourType": "Bread Flour"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "500°F (260°C)",
+          "time": "10-12 minutes",
+          "prepMethod": "Place pizza on the lowest rack of the oven for the best bottom heat."
+        },
+        "pizzaStone": {
+          "temperature": "500°F (260°C)",
+          "time": "8-10 minutes",
+          "prepMethod": "Preheat stone for at least an hour, slide pizza directly onto hot stone."
+        },
+        "pizzaOven": {
+          "temperature": "650-700°F (340-370°C)",
+          "time": "4-6 minutes",
+          "prepMethod": "Aim for charred spots on the bottom and edges."
+        }
+      }
+    },
+    {
+      "id": "trenton-tomato-pie",
+      "name": "Trenton Tomato Pie",
+      "description": "Thin crust pizza with cheese first, then sauce on top.",
+      "shape": "round",
+      "doughProperties": {
+        "doughWeightCM": 0.282,
+        "doughWeightInch": 1.82,
+        "hydration": 60,
+        "salt": 2,
+        "oil": 2,
+        "sugar": 1,
+        "flourType": "Bread Flour"
+      },
+      "cookingInstructions": {
+        "conventional": {
+          "temperature": "500°F (260°C)",
+          "time": "12-15 minutes",
+          "prepMethod": "Cheese goes on first, chunky tomato sauce on top. Bake on lowest rack."
+        },
+        "pizzaStone": {
+          "temperature": "500°F (260°C)",
+          "time": "10-12 minutes",
+          "prepMethod": "Preheat stone for 45-60 minutes, slide pizza directly onto hot stone."
+        },
+        "pizzaOven": {
+          "temperature": "550°F (290°C)",
+          "time": "8-10 minutes",
+          "prepMethod": "Turn pizza for even cooking, watch that the sauce doesn't dry out too much."
+        }
+      }
+    }
+  ]
+} 

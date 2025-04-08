@@ -1,0 +1,312 @@
+{
+  "pizzaTypes": {
+    "panPizzas": {
+      "description": "Square-shaped pizzas typically cooked in a pan or dish",
+      "types": [
+        "Detroit",
+        "Sicilian",
+        "Roman"
+      ]
+    },
+    "roundPizzas": {
+      "description": "Circle-shaped pizzas typically cooked directly on a stone or rack",
+      "types": [
+        "Neapolitan",
+        "New York",
+        "St Louis",
+        "California",
+        "New Haven",
+        "Thin n Crispy",
+        "Trenton Tomato Pie"
+      ]
+    }
+  },
+  "cookingMethods": {
+    "panPizzas": {
+      "pizzaOven": {
+        "temperature": {
+          "celsius": "300-340°C",
+          "fahrenheit": "570-645°F"
+        },
+        "cookingTime": "9-10 minutes (4-5 minutes, rotate, 5 more minutes)",
+        "placement": "Front of oven with reduced flame/temperature",
+        "technique": "Cook in a dish, cool in the dish for a few minutes before removal",
+        "specialNotes": "Recommended cheese is Wisconsin Brick cheese, or alternatives like Monterey Jack or mild white cheddar"
+      },
+      "homeOvenWithStone": {
+        "temperature": {
+          "celsius": "250-260°C",
+          "fahrenheit": "480-500°F"
+        },
+        "cookingTime": "12-15 minutes",
+        "placement": "Pizza stone on shelf close to bottom of oven",
+        "technique": "Place dish on pizza stone, cool in the dish before removal",
+        "specialNotes": "Same cheese recommendations as pizza oven method"
+      },
+      "homeOven": {
+        "temperature": {
+          "celsius": "250-260°C",
+          "fahrenheit": "480-500°F"
+        },
+        "cookingTime": "12-15 minutes",
+        "placement": "Bottom shelf or rack",
+        "technique": "Cook in dish, cool in the dish before removal",
+        "specialNotes": "Same cheese recommendations as pizza oven method"
+      }
+    },
+    "roundPizzas": {
+      "pizzaOven": {
+        "temperature": {
+          "celsius": "400-450°C",
+          "fahrenheit": "750-840°F"
+        },
+        "cookingTime": "5 minutes (turn every 20-30 seconds)",
+        "placement": "Center of oven on pizza stone",
+        "technique": "Slide pizza from peel directly onto stone, check for slightly burnt bubbles around edges to confirm doneness",
+        "specialNotes": "Use a pizza peel with semolina flour to ensure pizza slides easily"
+      },
+      "homeOvenWithStone": {
+        "temperature": {
+          "celsius": "200-260°C",
+          "fahrenheit": "400-500°F"
+        },
+        "cookingTime": "16 minutes (8 minutes, rotate 180°, 8 more minutes)",
+        "placement": "Pizza stone on the very base of the oven (not on trays)",
+        "technique": "Slide pizza from peel directly onto stone, check that edges are browned and crispy",
+        "specialNotes": "Preheat stone for about 1 hour to ensure it's very hot"
+      },
+      "homeOven": {
+        "temperature": {
+          "celsius": "200-260°C",
+          "fahrenheit": "400-500°F"
+        },
+        "cookingTime": "18 minutes (10 minutes, rotate 180°, 8 more minutes)",
+        "placement": "Middle shelf on oiled tray",
+        "technique": "Press dough to edges of tray, check that edges are browned and crispy",
+        "specialNotes": "Preheat oven for about 1 hour for best results"
+      }
+    }
+  },
+  "doughPreparation": {
+    "panDough": {
+      "ingredients": {
+        "sameDay": {
+          "breadFlour": "162 gms",
+          "water": "122 gms",
+          "yeast": "1.04 gm",
+          "salt": "3.2 gms",
+          "sugar": "3.2 gms",
+          "oil": "8.1 gms",
+          "additionalOil": "3 Tablespoons for oiling tray and dough surface"
+        },
+        "24hours": {
+          "breadFlour": "162 gms",
+          "water": "122 gms",
+          "yeast": "1.04 gm",
+          "salt": "3.2 gms",
+          "sugar": "3.2 gms",
+          "oil": "8.1 gms",
+          "additionalOil": "3 Tablespoons for oiling tray and dough surface"
+        },
+        "48hours": {
+          "breadFlour": "128 gms",
+          "water": "96 gms",
+          "yeast": "0.82 gm",
+          "salt": "2.6 gms",
+          "sugar": "2.6 gms",
+          "oil": "6.4 gms",
+          "additionalOil": "3 Tablespoons for oiling tray and dough surface"
+        }
+      },
+      "process": {
+        "sameDay": {
+          "totalTime": "4 hours",
+          "steps": [
+            "Mix yeast and sugar with water until dissolved",
+            "Add oil and flour, stir until thick batter forms",
+            "Add salt, knead until well mixed",
+            "Place in oiled bowl, cover, rest for 2 hours at room temperature until doubled",
+            "Optional: Perform 'slap and fold' technique for extra air",
+            "Grease dish with oil or butter",
+            "Place dough in dish, spread almost to edges",
+            "Rest 20 minutes, press into corners ensuring even distribution",
+            "Oil surface, create dimpled effect with fingers",
+            "Cover, rest at room temperature for 2 hours"
+          ]
+        },
+        "24hours": {
+          "totalTime": "24 hours",
+          "steps": [
+            "Mix yeast and sugar with water until dissolved",
+            "Add oil and flour, stir until thick batter forms",
+            "Add salt, knead until well mixed",
+            "Place in oiled bowl, cover, rest for 2 hours at room temperature until doubled",
+            "Optional: Perform 'slap and fold' technique for extra air",
+            "Place in oiled bowl, cover, refrigerate for 16-24 hours",
+            "Remove from fridge, bring to room temperature (1-2 hours)",
+            "Grease dish with oil or butter",
+            "Place dough in dish, spread almost to edges",
+            "Rest 20 minutes, press into corners ensuring even distribution",
+            "Oil surface, create dimpled effect with fingers",
+            "Cover, rest at room temperature for 2 hours"
+          ]
+        },
+        "48hours": {
+          "totalTime": "48 hours",
+          "steps": [
+            "Mix yeast and sugar with water until dissolved",
+            "Add oil and flour, stir until thick batter forms",
+            "Add salt, knead until well mixed",
+            "Place in oiled bowl, cover, rest for 2 hours at room temperature until doubled",
+            "Optional: Perform 'slap and fold' technique for extra air",
+            "Place in oiled bowl, cover, refrigerate for 40-48 hours",
+            "Remove from fridge, bring to room temperature (1-2 hours)",
+            "Grease dish with oil or butter",
+            "Place dough in dish, spread almost to edges",
+            "Rest 20 minutes, press into corners ensuring even distribution",
+            "Oil surface, create dimpled effect with fingers",
+            "Cover, rest at room temperature for 2 hours"
+          ]
+        }
+      },
+      "keyCharacteristics": [
+        "Uses bread flour instead of 00 flour",
+        "Contains oil in base recipe",
+        "Requires dimpling of surface",
+        "Pressed into pan rather than stretched by hand",
+        "Higher hydration ratio compared to round dough"
+      ]
+    },
+    "roundDough": {
+      "ingredients": {
+        "sameDay": {
+          "type00Flour": "106 gms",
+          "water": "64 gms",
+          "yeast": "0.68 gm",
+          "salt": "2.1 gms",
+          "sugar": "2.1 gms",
+          "oil": "0 gms",
+          "additionalFlour": "1 cup flour or semolina for surfaces"
+        },
+        "24hours": {
+          "type00Flour": "106 gms",
+          "water": "64 gms",
+          "yeast": "0.68 gm",
+          "salt": "2.1 gms",
+          "sugar": "2.1 gms",
+          "oil": "0 gms",
+          "additionalFlour": "1 cup flour or semolina for surfaces"
+        },
+        "48hours": {
+          "type00Flour": "106 gms",
+          "water": "64 gms",
+          "yeast": "0.68 gm",
+          "salt": "2.1 gms",
+          "sugar": "2.1 gms",
+          "oil": "0 gms",
+          "additionalFlour": "1 cup flour or semolina for surfaces"
+        }
+      },
+      "process": {
+        "sameDay": {
+          "totalTime": "4 hours",
+          "steps": [
+            "Mix yeast and sugar with water until dissolved",
+            "Add flour, stir until thick batter forms",
+            "Add salt, knead until well mixed",
+            "Place in oiled bowl, cover, rest for 2 hours at room temperature until doubled",
+            "Optional: Perform 'slap and fold' technique for extra air",
+            "Lightly dust dough with flour",
+            "Form dough ball by folding under itself (pushing up under middle to incorporate air)",
+            "Place in floured bowl, cover, rest at room temperature for 2 hours"
+          ]
+        },
+        "24hours": {
+          "totalTime": "24 hours",
+          "steps": [
+            "Mix yeast and sugar with water until dissolved",
+            "Add flour, stir until thick batter forms",
+            "Add salt, knead until well mixed",
+            "Place in oiled bowl, cover, rest for 2 hours at room temperature until doubled",
+            "Optional: Perform 'slap and fold' technique for extra air",
+            "Place in oiled bowl, cover, refrigerate for 16-24 hours",
+            "Remove from fridge, bring to room temperature (1-2 hours)",
+            "Lightly dust dough with flour",
+            "Form dough ball by folding under itself (pushing up under middle to incorporate air)",
+            "Place in floured bowl, cover, rest at room temperature for 2 hours"
+          ]
+        },
+        "48hours": {
+          "totalTime": "48 hours",
+          "steps": [
+            "Mix yeast and sugar with water until dissolved",
+            "Add flour, stir until thick batter forms",
+            "Add salt, knead until well mixed",
+            "Place in oiled bowl, cover, rest for 2 hours at room temperature until doubled",
+            "Optional: Perform 'slap and fold' technique for extra air",
+            "Place in oiled bowl, cover, refrigerate for 40-48 hours",
+            "Remove from fridge, bring to room temperature (1-2 hours)",
+            "Lightly dust dough with flour",
+            "Form dough ball by folding under itself (pushing up under middle to incorporate air)",
+            "Place in floured bowl, cover, rest at room temperature for 2 hours"
+          ]
+        }
+      },
+      "stretchingTechnique": [
+        "Position dough ball on generously floured surface (preferably semolina)",
+        "Press down from center with fingertips, working towards edges, leaving rim untouched",
+        "Pick up dough and rest on knuckles of clenched fists",
+        "Gently stretch using knuckles, being careful not to tear dough"
+      ],
+      "keyCharacteristics": [
+        "Uses Type 00 flour instead of bread flour",
+        "Contains no oil in base recipe",
+        "Formed into balls and stretched by hand",
+        "Lower hydration ratio compared to pan dough",
+        "Requires specific stretching technique"
+      ]
+    }
+  },
+  "toppingApplication": {
+    "panPizzas": {
+      "sauceApplication": "Added directly to dough in pan",
+      "cheeseRecommendation": "Wisconsin Brick cheese, Monterey Jack, or mild white cheddar",
+      "specialTechniques": "Often cheese is placed under sauce or directly on crust (especially for Detroit style)"
+    },
+    "roundPizzas": {
+      "sauceApplication": "Thin, uniform layer with 1-inch border for crust, avoid excess moisture",
+      "toppingPlacement": "Added after sauce, before cooking",
+      "specialTechniques": "Need to ensure toppings aren't too heavy to maintain proper cooking"
+    }
+  },
+  "keyDifferences": {
+    "shape": {
+      "panPizzas": "Square/rectangular",
+      "roundPizzas": "Circular"
+    },
+    "texture": {
+      "panPizzas": "Thicker, often with crispy edges and softer interior",
+      "roundPizzas": "Typically thinner with distinct crust edge"
+    },
+    "cookingContainer": {
+      "panPizzas": "Cooked in a dish or pan",
+      "roundPizzas": "Cooked directly on stone or rack"
+    },
+    "ovenTemperature": {
+      "panPizzas": "Lower temperature (250-340°C)",
+      "roundPizzas": "Higher temperature (200-450°C, particularly high for pizza oven method)"
+    },
+    "flour": {
+      "panPizzas": "Bread flour",
+      "roundPizzas": "Type 00 flour"
+    },
+    "hydration": {
+      "panPizzas": "Higher water-to-flour ratio",
+      "roundPizzas": "Lower water-to-flour ratio"
+    },
+    "oil": {
+      "panPizzas": "Contains oil in dough recipe and used to coat pan",
+      "roundPizzas": "No oil in base dough recipe"
+    }
+  }
+} 
